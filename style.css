@@ -1,0 +1,232 @@
+.image10:hover
+{
+    opacity: 0.8;
+}
+
+.image3:hover
+{
+    opacity: 0.8;
+}
+
+.image6:hover
+{
+    opacity: 0.8;
+}
+
+.image7:hover
+{
+    opacity: 0.5;
+}
+
+.image11:hover
+{
+    opacity: 0.5;
+}
+
+.image1:hover
+{
+    transform: scale(2);
+}
+
+.image2:hover
+{
+    transform: scale(2);
+}
+
+.image4:hover
+{
+    transform: scale(2);
+}
+
+.image5:hover
+{
+    transform: scale(2);
+}
+
+.image8:hover
+{
+    transform: scale(2);
+}
+
+.image9:hover
+{
+    transform: scale(2);
+}
+
+.hhh
+{
+    color:antiquewhite
+}
+
+.hh
+{
+    text-align: center;
+    font-weight: bold;
+    color:black
+}
+
+.h4
+{
+    text-align: center;
+    font-size: 15px;
+}
+
+.小标题
+{
+    color:gray
+}
+
+.intro
+{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.dream
+{
+    font-family:'Times New Roman', Times, serif;
+    transition: color 0.3s;       
+}
+.dream:hover 
+{
+    color: yellowgreen; 
+}
+
+.dream1
+{
+    font-family:'Times New Roman', Times, serif;
+    transition: color 0.3s;       
+}
+.dream1:hover 
+{
+    color: rgb(131, 131, 54); 
+}
+
+.dream2
+{
+    font-family:'Times New Roman', Times, serif;
+    transition: color 0.3s;       
+}
+.dream2:hover 
+{
+    color: purple; 
+}
+
+.co:hover
+{
+    color: red;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+ 
+.image-container img {
+    display: block;
+    width: 127%; /* 或者设置具体的宽度 */
+    height: auto;
+    transition: filter 0.5s ease; /* 平滑过渡效果 */
+}
+ 
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 127%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 黑色半透明背景 */
+    color: white; /* 文字颜色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* 初始透明 */
+    transition: opacity 0.5s ease; /* 平滑过渡效果 */
+}
+ 
+.image-container:hover img {
+    filter: blur(8px); /* 鼠标悬浮时模糊效果 */
+}
+ 
+.image-container:hover .overlay {
+    opacity: 1; /* 鼠标悬浮时显示文字 */
+}
+
+.number
+{
+   font-size:24px ;
+}
+
+.image-container1 {
+    position: relative;
+    display: inline-block;
+}
+ 
+.image-container1 img {
+    display: block;
+    width: 127%; /* 或者设置具体的宽度 */
+    height: auto;
+    transition: filter 0.5s ease; /* 平滑过渡效果 */
+}
+ 
+.image-container1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 黑色半透明背景 */
+    color: white; /* 文字颜色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* 初始透明 */
+    transition: opacity 0.5s ease; /* 平滑过渡效果 */
+}
+ 
+.image-container1:hover img {
+    filter: blur(8px); /* 鼠标悬浮时模糊效果 */
+}
+ 
+.image-container1:hover .overlay {
+    opacity: 1; /* 鼠标悬浮时显示文字 */
+}
+
+.number
+{
+   font-size:24px ;
+}
+
+.word
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px
+}
+
+.box
+{
+    border: 10px solid orangered;
+}
+
+.pro
+{
+    font-size:34px;
+    font-weight:450;
+}
+.pro:hover 
+{
+    color: orangered; 
+}
+
+.w3-jumbo
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.w3-jumbo:hover
+{
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
